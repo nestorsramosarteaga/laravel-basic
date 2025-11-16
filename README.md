@@ -24,6 +24,20 @@ Este entorno incluye:
 
 Actualizar los valores en el archivo .env
 
+Comprobar si existe la red externa
+
+```bash
+docker network inspect smtp-bridge-network
+```
+
+Si no existe, la red debe ser creada
+
+```bash
+docker network create smtp-bridge-network
+```
+
+Iniciar los contenedores:
+
 ```bash
 docker compose up -d --build
 ```
