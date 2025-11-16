@@ -16,11 +16,13 @@ Este entorno incluye:
 
 - Docker 24+
 - Docker Compose v2
-- Carpeta del proyecto mapeada en: `${HOME}/${DIRHOME}/api`
+- Carpeta del proyecto mapeada en: `${HOME}/${DIRHOME}/src`
 
 ---
 
 ## 2. Iniciar el entorno
+
+Actualizar los valores en el archivo .env
 
 ```bash
 docker compose up -d --build
@@ -99,24 +101,3 @@ phpinfo();
 ```
 
 Ir a http://localhost:${WEB_PORT}
-
-
----
-
-## 7. 
-```bash
-
-```
-
----
-
-## 7. 
-```bash
-
-```
-
-
-
-
-
-
